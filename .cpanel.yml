@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/calank/public_html/webfolder/
+    - /bin/cp -R * $DEPLOYPATH
